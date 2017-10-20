@@ -1,0 +1,47 @@
+#header{
+	height:10em;
+	background-color:white;
+}
+
+#main-content{
+	height:20em;
+	background-color:floralwhite;
+}
+
+#footer{
+	height:5em;
+	background-color:Gainsboro; 
+}
+
+#footer-left{
+	margin:1em;
+	text-align:left;
+	display:inline-block;
+	float:left;
+}
+
+#footer-right{
+	margin:1em;
+	text-align:right;
+	display:inline-block;
+	float:right;
+}
+
+.header-logo{
+	float:left;
+	display:inline-block;
+}
+
+.header-text{
+
+}
+
+.main-content-text{
+
+}
+
+.footer-text{
+	font-size:0.75em;
+	color:SlateGray;
+	display:block;
+}
