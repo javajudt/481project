@@ -27,9 +27,31 @@
 	float:right;
 }
 
-.header-logo{
+#header-logo{
 	float:left;
 	display:inline-block;
+}
+
+#nav-tabs{
+	float:right; 
+	display:inline-block;
+}
+
+.nav-link{
+	display:inline-block;
+	color:darkred;
+	font-size:1.5em;
+	margin-right:1em;
+	font-family:system-ui;
+	text-decoration:none;
+}
+
+.nav-link:hover{
+	color:red;
+}
+
+.nav-link:active{
+	color:orange;
 }
 
 .header-text{
