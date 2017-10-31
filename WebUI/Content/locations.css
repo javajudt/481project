@@ -1,0 +1,69 @@
+#header{
+	height:10em;
+	background-color:white;
+}
+
+#main-content{
+	height:20em;
+	background-color:floralwhite;
+}
+
+#footer{
+	height:5em;
+	background-color:Gainsboro; 
+}
+
+#footer-left{
+	margin:1em;
+	text-align:left;
+	display:inline-block;
+	float:left;
+}
+
+#footer-right{
+	margin:1em;
+	text-align:right;
+	display:inline-block;
+	float:right;
+}
+
+#header-logo{
+	float:left;
+	display:inline-block;
+}
+
+#nav-tabs{
+	float:right; 
+	display:inline-block;
+}
+
+.nav-link{
+	display:inline-block;
+	color:darkred;
+	font-size:1.5em;
+	margin-right:1em;
+	font-family:system-ui;
+	text-decoration:none;
+}
+
+.nav-link:hover{
+	color:red;
+}
+
+.nav-link:active{
+	color:orange;
+}
+
+.header-text{
+
+}
+
+.main-content-text{
+
+}
+
+.footer-text{
+	font-size:0.75em;
+	color:SlateGray;
+	display:block;
+}
