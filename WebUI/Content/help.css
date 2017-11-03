@@ -4,7 +4,6 @@
 }
 
 #main-content{
-	height:20em;
 	background-color:floralwhite;
 }
 
@@ -66,4 +65,19 @@
 	font-size:0.75em;
 	color:SlateGray;
 	display:block;
+}
+
+#help-form{
+	display:inline-block;
+	margin-left:5em;
+}
+
+.help-form-input{
+	text-align:left;
+	display: block;
+	margin-bottom:0.5em;
+}
+
+.help-form-button{
+	display:inline-block;
 }

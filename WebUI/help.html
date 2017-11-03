@@ -8,7 +8,7 @@
 	<body>
 		<div id="header"> 
 			<div id="header-logo">
-				<img src="Content\Images\ajrlogo.png" height="100"> 
+				<img src="Content\Images\ajrlogo.gif" height="150"> 
 			</div>
 			<div id="nav-tabs">
 				<a class="nav-link" href="index.html">Home</a>
@@ -19,7 +19,37 @@
 			</div>
 		</div> 
 		<div id="main-content">
-			<label>Maybe have a help form that asks what the promblem is etc.</label>
+			<div style="margin:1em;">
+				<span style="color:red;">If you have an urgent issue, please contact us by calling 1-800-555-RENT (7368). </span>
+				Otherwise use this form to shoot us an email. We'll get back to you as fast as possible, typically within 1 business day.
+			</div>
+			<form id="help-form">
+				<fieldset id="help-form-fieldset">
+					<legend>Help Form</legend>
+					<label id="name-label" for="name-input">Name</label>
+					<input class="help-form-input" id="name-input" />
+					<label id="email-label" for="email-input">Email</label>
+					<input class="help-form-input" id="email-input" />
+					<label id="phone-label" for="phone-input">Phone</label>
+					<input class="help-form-input" id="phone-input" />
+					<label id="subject-label" for="subject-input">Subject</label>
+					<select class="help-form-input" id="subject-input">
+						<option value="0">Select One</option>
+						<option value="1">Website Question</option>
+						<option value="2">Rental Question</option>
+						<option value="3">I'm Having Car Issues</option>
+						<option value="4">Website Feedback</option>
+						<option value="5">Store Feedback</option>
+						<option value="6">Other</option>
+					</select>
+					<label id="message-label" for="message-input">Message</label>
+					<textarea class="help-form-input" id="message-input" cols="40" rows="5"></textarea>
+					<div class="help-form-input">
+						<input class="help-form-button" id="submit-button" type="submit" />
+						<input button class="help-form-button" id="reset-button" type="reset" />
+					</div>
+				</fieldset>
+			</form>
 		</div>
 		<div id="footer"> 
 			<div id="footer-left">
