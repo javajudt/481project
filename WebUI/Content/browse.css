@@ -66,3 +66,29 @@
 	color:SlateGray;
 	display:block;
 }
+
+#table{
+	text-align:center;
+	margin:1em;
+}
+
+.car{
+	display:inline-block;
+	border-radius: 5px;
+	border:1px solid black;
+	margin:1px;
+	width:200px;
+	height:200px;
+	background-color:white;
+	cursor: pointer;
+}
+
+.car-desc{
+	display:block;
+	text-align:center;
+	cursor: pointer;
+}
+
+.car-name{
+	font-size:1.5em;
+}
