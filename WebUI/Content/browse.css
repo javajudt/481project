@@ -75,6 +75,14 @@
 	cursor: pointer;
 }
 
+.car:hover{
+	background-color:Gainsboro;
+}
+
+.car:active{
+	background-color:Gray;
+}
+
 .car-desc{
 	display:block;
 	text-align:center;
