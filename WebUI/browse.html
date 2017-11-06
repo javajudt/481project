@@ -20,70 +20,110 @@
 		</div> 
 		
 		<div id="main-content">
-			<table border = "1">
-				
-				<tr>
-					<td> <img src = "Content\Images\2012Chrysler200-Sedan.jpg" height = "100">
-						 <pre> 2012 Chrysler 200: Sedan
-	AVG MPG: 24 </pre>
-					</td>
-					<td> <img src = "Content\Images\2014ChevyCruz-Sedan.jpg" height = "100">
-						<pre> 2014 Chevy Cruz: Sedan
-	AVG MPG: 35 </pre>
-					</td>
-					<td> <img src = "Content\Images\2012HondaAccord-Sedan.jpg" height = "100">
-						 <pre> 2012 Honda Accord: Sedan
-	AVG MPG: 29 </pre>
-					</td>
-				<td> <img src = "Content\Images\2000JeepWrangler-SUV.jpg" height = "100">
-						 <pre> 2000 Jeep Wrangler: SUV
-	AVG MPG: 19 </pre>
-					</td>
-					<td> <img src = "Content\Images\2001FordEscape-SUV.jpg" height = "100">
-						 <pre> 2001 Ford Escape: SUV
-	AVG MPG: 26 </pre>
-					</td>
-					<td> <img src = "Content\Images\2013KiaSorento-SUV.jpg" height = "100">
-						 <pre> 2013 Kia Sorento: SUV
-	AVG MPG: 26 </pre>
-					</td>
-					<td> <img src = "Content\Images\2003ChevySilverado-Truck.jpg" height = "100">
-						 <pre>2003 Chevy Silverado: Truck
-	AVG MPG: 19 </pre>
-					</td>
-				</tr>
-					
-				<tr>
-					<td> <img src = "Content\Images\2016GMCSierra-Truck.jpg" height = "100">
-						 <pre>2016 GMC Sierra: Truck
-	AVG MPG: 21 </pre>
-					</td>
-					<td> <img src = "Content\Images\2015CadillacCTS-Sport.jpg" height = "100">
-						 <pre>2015 Cadillac CTS: Sport
-	AVG MPG: 25 </pre>
-					</td>
-					<td> <img src = "Content\Images\2017LexusRC-Sport.jpg" height = "100">
-						 <pre>2017 Lexus RC: Sport
-	AVG MPG: 27 </pre>
-					</td>
-					<td> <img src = "Content\Images\2010ToyotaPrius-Eco.jpg" height = "100">
-						 <pre>2010 Toyota Prius: Eco
-	AVG MPG: 50 </pre>
-					</td>
-					<td> <img src = "Content\Images\2016FordFusionHybrid-Eco.jpg" height = "100">
-						 <pre>2016 Ford Fusion Hybrid: Eco
-	AVG MPG: 43 </pre>
-					</td>
-					<td> <img src = "Content\Images\2017KiaSedona-MV.jpg" height = "100">
-						 <pre>2017 Kia Sedona: Van
-	AVG MPG: 22 </pre>
-					</td>
-					<td> <img src = "Content\Images\2014ToyotaSienna-MV.jpg" height = "100">
-						 <pre>2014 Toyora Sienna: Van
-	AVG MPG: 22 </pre>
-					</td>
-				</tr>
-				
+			<div>
+				<label class="car-desc car-name">Click on a car to view more details and to reserve it!</label>
+			</div>
+			<div id="table">
+	<!-- TODO car table should be generated on the server-side. Pull car info from database and dynamically create the table. -->
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2012Chrysler200-Sedan.jpg" height="100"></label>
+					<label class="car-desc car-name">Chrysler 200</label>
+					<label class="car-desc">Year: 2012</label>
+					<label class="car-desc">Type: Sedan</label>
+					<label class="car-desc">MPG: 24</label>
+				</div>
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2014ChevyCruz-Sedan.jpg" height="100"></label>
+					<label class="car-desc car-name">Chevy Cruz</label>
+					<label class="car-desc">Year: 2014</label>
+					<label class="car-desc">Type: Sedan</label>
+					<label class="car-desc">MPG: 35</label>
+				</div>
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2012HondaAccord-Sedan.jpg" height="100"></label>
+					<label class="car-desc car-name">Honda Accord</label>
+					<label class="car-desc">Year: 2012</label>
+					<label class="car-desc">Type: Sedan</label>
+					<label class="car-desc">MPG: 29</label>
+				</div>
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2000JeepWrangler-SUV.jpg" height="100"></label>
+					<label class="car-desc car-name">Jeep Wrangler</label>
+					<label class="car-desc">Year: 2000</label>
+					<label class="car-desc">Type: SUV</label>
+					<label class="car-desc">MPG: 19</label>
+				</div>
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2001FordEscape-SUV.jpg" height="100"></label>
+					<label class="car-desc car-name">Ford Escape</label>
+					<label class="car-desc">Year: 2001</label>
+					<label class="car-desc">Type: SUV</label>
+					<label class="car-desc">MPG: 26</label>
+				</div>
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2013KiaSorento-SUV.jpg" height="100"></label>
+					<label class="car-desc car-name">Kia Sorento</label>
+					<label class="car-desc">Year: 2013</label>
+					<label class="car-desc">Type: SUV</label>
+					<label class="car-desc">MPG: 26</label>
+				</div>
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2003ChevySilverado-Truck.jpg" height="100"></label>
+					<label class="car-desc car-name">Chevrolet Silverado</label>
+					<label class="car-desc">Year: 2003</label>
+					<label class="car-desc">Type: Truck</label>
+					<label class="car-desc">MPG: 19</label>
+				</div>
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2016GMCSierra-Truck.jpg" height="100"></label>
+					<label class="car-desc car-name">GMC Sierra</label>
+					<label class="car-desc">Year: 2016</label>
+					<label class="car-desc">Type: Truck</label>
+					<label class="car-desc">MPG: 21</label>
+				</div>
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2015CadillacCTS-Sport.jpg" height="100"></label>
+					<label class="car-desc car-name">Cadillac CTS</label>
+					<label class="car-desc">Year: 2015</label>
+					<label class="car-desc">Type: Sport</label>
+					<label class="car-desc">MPG: 25</label>
+				</div>
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2017LexusRC-Sport.jpg" height="100"></label>
+					<label class="car-desc car-name">Lexus RC</label>
+					<label class="car-desc">Year: 2017</label>
+					<label class="car-desc">Type: Sport</label>
+					<label class="car-desc">MPG: 27</label>
+				</div>
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2010ToyotaPrius-Eco.jpg" height="100"></label>
+					<label class="car-desc car-name">Toyota Prius</label>
+					<label class="car-desc">Year: 2010</label>
+					<label class="car-desc">Type: Eco</label>
+					<label class="car-desc">MPG: 50</label>
+				</div>
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2016FordFusionHybrid-Eco.jpg" height="100"></label>
+					<label class="car-desc car-name">Ford Fusion Hybrid</label>
+					<label class="car-desc">Year: 2016</label>
+					<label class="car-desc">Type: Eco</label>
+					<label class="car-desc">MPG: 43</label>
+				</div>
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2017KiaSedona-MV.jpg" height="100"></label>
+					<label class="car-desc car-name">Kia Sedona</label>
+					<label class="car-desc">Year: 2017</label>
+					<label class="car-desc">Type: Van</label>
+					<label class="car-desc">MPG: 22</label>
+				</div>
+				<div class="car" id="vin-or-guid-will-go-here">
+					<label class="car-desc"><img src="Content\Images\2014ToyotaSienna-MV.jpg" height="100"></label>
+					<label class="car-desc car-name">Toyota Sienna</label>
+					<label class="car-desc">Year: 2014</label>
+					<label class="car-desc">Type: Van</label>
+					<label class="car-desc">MPG: 22</label>
+				</div>
+			</div>
 		</div>
 		
 		<div id="footer"> 
