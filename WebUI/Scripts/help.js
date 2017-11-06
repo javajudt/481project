@@ -111,7 +111,7 @@ function verifyEmail(){
 	var emailSplit = email.split("@");
 	var domainSplit = [];
 	if (emailSplit.length > 1) domainSplit = emailSplit[1].split(".");
-	if (emailSplit.length === 2 && domainSplit.length === 2 && emailSplit[0].length > 0 && domainSplit[0].length > 0 && domainSplit[1].length > 0){
+	if (emailSplit.length === 2 && domainSplit.length >= 2 && emailSplit[0].length > 0 && domainSplit[0].length > 0 && domainSplit[1].length > 0){
 		$("#email-input").css("color","green");
 		$("#email-label").css("color","green");
 		return true;
